@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 10px 5%;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+header {
+    padding-top: 20px;
+    font-family: "impact";
+    font-size: 60px;
+    color: aliceblue;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    font-family: 'impact';
+    font-size: 25px;
+    padding: 10px 50px;
+    color: #E94C6F;
+}
+
+#MainMenu {
+    height: auto;
+    border-radius: 15px;
+    background: linear-gradient(0deg, #D62121, #C72C2C, #3a1111);
+    box-shadow: 0px 0px gray, 0px 0px 20px gray;
+}
+
+.buttons .microphone .play-btn {
+    text-align: center;
+    align-content: center;
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.btn-record {
+    text-align: center;
+    align-content: center;
+    background-color: black;
+    position: relative;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+#timer #date {
+    font-family: 'impact';
+    color: aliceblue;
+    font-size: 24px;
+    margin: auto;
+}
+
+.icn-record {
+    text-align: center;
+    align-content: center;
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.icon-play {
+    height: 80px;
+    width: 80px;
+}
+
+.flex-container {
+    display: flex;
+    height: 100px;
+    margin: 15px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.flex-item {
+    width: 100px;
+}
+}
