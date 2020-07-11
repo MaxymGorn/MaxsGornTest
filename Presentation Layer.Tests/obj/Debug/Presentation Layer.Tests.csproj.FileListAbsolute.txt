@@ -1,0 +1,2 @@
+C:\Users\MAKS\Desktop\MaxsGornTest\Presentation Layer.Tests\obj\Debug\Presentation Layer.Tests.csprojAssemblyReference.cache
+C:\Users\MAKS\Desktop\MaxsGornTest\Presentation Layer.Tests\obj\Debug\Presentation Layer.Tests.csproj.CoreCompileInputs.cache

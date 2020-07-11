@@ -1,0 +1,65 @@
+﻿@model IEnumerable<MaxsGornTest.Models.Sound>
+
+@{
+    ViewBag.Title = "Audio Recorder";
+}
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Audio Recorder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/Css/css.css">
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+</head>
+
+<body>
+
+    <main class="container">
+        <div class="profile-page col-12 col-lg-12 col-sm-12">
+            <div id="MainMenu" class="col-12 col-lg-12 col-sm-12">
+                <header class="col-sm-12">Audio Recorder</header>
+                <img class="microphone image-container " width="400" height="400" src="https://fileswaw.blob.core.windows.net/webappstoragedotnet-imagecontainer/microphone (1) (2).gif">
+                <div>
+                    <div id="timer">
+                        00:00:00
+                    </div>
+                    <div id="date" class="col-sm ">
+                        Day, Month Numeric, Year, UTC
+                    </div>
+                    <div class="buttons">
+                        <div class="flex-container">
+                            <div class="flex-item">
+                                <div class="btn-record" id="recordButton" disabled>
+                                    <div class="icn-record">
+                                        <img class="icon-play" src="https://i.ibb.co/xM5c07R/play.png">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex-item">
+                                <div class="btn-stop" id="stopButton" disabled>
+                                    <img class="icon-play" src="https://i.ibb.co/FxXfFZF/stop-button-vector-608102.png">
+                                </div>
+                            </div>
+                            <div class="flex-item">
+                                <div class="btn-save" id="saveButton" disabled>
+                                    <img class="icon-play" src="https://i.ibb.co/MNxt971/apps-55915-13510798886781661-19a5e972-ada5-473b-ab47-3472af85f4da.png">
+                                </div>
+                            </div>
+                        </div>
+                        <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+
+                    </div>
+                </div>
+                <script src="~/Js/main.js"></script>
+                <script src="~/Js/lib.js"></script>
+    </main>
+</body>
+<div>
+    @Html.ActionLink("Back to List", "Index")
+    <h3>@ViewBag.MessageSave</h3>
+</div>
+</html>

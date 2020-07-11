@@ -1,0 +1,11 @@
+C:\Users\MAKS\Desktop\MaxsGornTest\Data Access Layer\bin\Debug\Data Access Layer.dll.config
+C:\Users\MAKS\Desktop\MaxsGornTest\Data Access Layer\bin\Debug\Data Access Layer.dll
+C:\Users\MAKS\Desktop\MaxsGornTest\Data Access Layer\bin\Debug\Data Access Layer.pdb
+C:\Users\MAKS\Desktop\MaxsGornTest\Data Access Layer\bin\Debug\EntityFramework.dll
+C:\Users\MAKS\Desktop\MaxsGornTest\Data Access Layer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MAKS\Desktop\MaxsGornTest\Data Access Layer\bin\Debug\EntityFramework.xml
+C:\Users\MAKS\Desktop\MaxsGornTest\Data Access Layer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MAKS\Desktop\MaxsGornTest\Data Access Layer\obj\Debug\Data Access Layer.csproj.CoreCompileInputs.cache
+C:\Users\MAKS\Desktop\MaxsGornTest\Data Access Layer\obj\Debug\Data Access Layer.csproj.CopyComplete
+C:\Users\MAKS\Desktop\MaxsGornTest\Data Access Layer\obj\Debug\Data Access Layer.dll
+C:\Users\MAKS\Desktop\MaxsGornTest\Data Access Layer\obj\Debug\Data Access Layer.pdb
