@@ -19,10 +19,7 @@ namespace Business_Logic_Layer.Services
         public SoundService(IUnitOfWork uow)
         {
             Database = uow;
-            //k++;
-            //MessageBox.Show(k.ToString());
         }
-        //static int k=0;
         public void Dispose()
         {
             Database.Dispose();

@@ -1,4 +1,6 @@
-﻿using Data_Access_Layer.Interfaces;
+﻿using Business_Logic_Layer.Interfaces;
+using Business_Logic_Layer.Services;
+using Data_Access_Layer.Interfaces;
 using Data_Access_Layer.Repository;
 using Ninject.Modules;
 using Ninject.Web.Common;

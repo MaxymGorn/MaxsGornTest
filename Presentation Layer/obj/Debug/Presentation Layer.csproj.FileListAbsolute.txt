@@ -107,3 +107,8 @@ C:\Users\MAKS\Desktop\MaxsGornTest\Presentation Layer\bin\ru\System.Web.WebPages
 C:\Users\MAKS\Desktop\MaxsGornTest\Presentation Layer\obj\Debug\Presentation Layer.csproj.CopyComplete
 C:\Users\MAKS\Desktop\MaxsGornTest\Presentation Layer\obj\Debug\Presentation Layer.dll
 C:\Users\MAKS\Desktop\MaxsGornTest\Presentation Layer\obj\Debug\Presentation Layer.pdb
+C:\Users\MAKS\Desktop\MaxsGornTest\Presentation Layer\bin\Autofac.dll
+C:\Users\MAKS\Desktop\MaxsGornTest\Presentation Layer\bin\Autofac.pdb
+C:\Users\MAKS\Desktop\MaxsGornTest\Presentation Layer\bin\Autofac.xml
+C:\Users\MAKS\Desktop\MaxsGornTest\Presentation Layer\bin\Autofac.Integration.Mvc.dll
+C:\Users\MAKS\Desktop\MaxsGornTest\Presentation Layer\bin\Autofac.Integration.Mvc.xml

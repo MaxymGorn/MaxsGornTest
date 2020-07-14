@@ -38,6 +38,10 @@ namespace Data_Access_Layer.Repository
         {
             return db.Sounds.Find(id);
         }
+        public async Task<Sound> GetAsync(int id)
+        {
+            return await db.Sounds.FindAsync(id);
+        }
 
         public IEnumerable<Sound> GetAll()
         {

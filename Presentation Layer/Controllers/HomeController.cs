@@ -2,13 +2,16 @@
 using Business_Logic_Layer.Interfaces;
 using MaxsGornTest.Controllers;
 using Newtonsoft.Json;
+using Presentation_Layer.Extension;
 using Presentation_Layer.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.UI;
 using System.Windows;
 
 namespace Presentation_Layer.Controllers
@@ -21,6 +24,7 @@ namespace Presentation_Layer.Controllers
             this.soundService = soundService;
             AddUser(new UserDTO() { value = MvcApplication.cookies.Value });
         }
+ 
         public  ActionResult Index( )
         {
             return View();
@@ -30,18 +34,24 @@ namespace Presentation_Layer.Controllers
             while (true)
             {
                 bool ee = false;
-                foreach (var el in soundService.GetUsers())
+                using (CancellationTokenSource source = new CancellationTokenSource())
                 {
-                    if (el.value == user.value)
+                    CancellationToken token = source.Token;
+                    var elem = soundService.GetUsers();
+                    elem.ForEachAsync(elem.Count(), async i =>
                     {
-                        ee = true;
+                        if (i.value == user.value)
+                        {
+                            ee = true;
+                            token.ThrowIfCancellationRequested();
+                        }
+                    }, token);
+                    if (ee == false)
+                    {
+                        soundService.MakeUserAsync(user);
                     }
+                    break;
                 }
-                if (ee == false)
-                {
-                    soundService.MakeUserAsync(user);
-                }
-                break;
             }
 
         }
@@ -68,7 +78,10 @@ namespace Presentation_Layer.Controllers
         }
         protected override void Dispose(bool disposing)
         {
-            soundService.Dispose();
+            if (disposing)
+            {
+                soundService.Dispose();
+            }
             base.Dispose(disposing);
         }
 

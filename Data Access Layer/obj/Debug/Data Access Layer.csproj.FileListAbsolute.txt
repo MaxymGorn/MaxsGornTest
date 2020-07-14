@@ -9,3 +9,4 @@ C:\Users\MAKS\Desktop\MaxsGornTest\Data Access Layer\obj\Debug\Data Access Layer
 C:\Users\MAKS\Desktop\MaxsGornTest\Data Access Layer\obj\Debug\Data Access Layer.csproj.CopyComplete
 C:\Users\MAKS\Desktop\MaxsGornTest\Data Access Layer\obj\Debug\Data Access Layer.dll
 C:\Users\MAKS\Desktop\MaxsGornTest\Data Access Layer\obj\Debug\Data Access Layer.pdb
+C:\Users\MAKS\Desktop\MaxsGornTest\Data Access Layer\obj\Debug\Data Access Layer.csprojAssemblyReference.cache

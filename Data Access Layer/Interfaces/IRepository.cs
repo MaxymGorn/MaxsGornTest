@@ -13,6 +13,7 @@ namespace Data_Access_Layer.Interfaces
         IEnumerable<T> Find(Func<T, Boolean> predicate);
         void Create(T item);
         void UpdateAsync(T item);
+        Task<T> GetAsync(int id);
         Task DeleteAsync(int id);
     }
 }

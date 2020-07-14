@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="Default-Web.config Connection String" description="Default Строка подключения в web.config, используемая приложением для доступа к базе данных." defaultValue="Server=tcp:maxserv.database.windows.net,1433;Initial Catalog=AudioDb;Persist Security Info=False;User ID=Max56132;Password=Max9071.;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\MAKS\\Desktop\\MaxsGornTest\\Presentation\ Layer\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Default']/@connectionString" />
+  </parameter>
+</parameters>

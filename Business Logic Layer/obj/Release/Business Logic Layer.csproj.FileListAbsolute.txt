@@ -1,0 +1,35 @@
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\Business Logic Layer.dll
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\Business Logic Layer.pdb
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\AutoMapper.dll
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\Data Access Layer.dll
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\Ninject.dll
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\Ninject.Web.Common.dll
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\Ninject.Web.Common.WebHost.dll
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\Ninject.Web.Mvc.dll
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\System.Web.Helpers.dll
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\System.Web.Mvc.dll
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\System.Web.Razor.dll
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\System.Web.WebPages.dll
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\System.Web.WebPages.Razor.dll
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\EntityFramework.dll
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\Data Access Layer.pdb
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\Data Access Layer.dll.config
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\AutoMapper.xml
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\Ninject.xml
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\Ninject.Web.Common.xml
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\Ninject.Web.Common.WebHost.xml
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\Ninject.Web.Mvc.xml
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\System.Web.Helpers.xml
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\System.Web.Mvc.xml
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\System.Web.Razor.xml
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\System.Web.WebPages.xml
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\System.Web.WebPages.Razor.xml
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\bin\Release\EntityFramework.xml
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\obj\Release\Business Logic Layer.csprojAssemblyReference.cache
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\obj\Release\Business Logic Layer.csproj.CoreCompileInputs.cache
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\obj\Release\Business Logic Layer.csproj.CopyComplete
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\obj\Release\Business Logic Layer.dll
+C:\Users\MAKS\Desktop\MaxsGornTest\Business Logic Layer\obj\Release\Business Logic Layer.pdb

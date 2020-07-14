@@ -45,6 +45,11 @@ namespace Data_Access_Layer.Repository
             return db.Users;
         }
 
+        public Task<User> GetAsync(int id)
+        {
+            return db.Users.FindAsync(id);
+        }
+
         public void UpdateAsync(User item)
         {
             db.Entry(item).State = EntityState.Modified;

@@ -13,6 +13,7 @@ namespace Presentation_Layer.Util
         public override void Load()
         {
             Bind<ISoundService>().To<SoundService>();
+            //Bind<ISoundService, SoundService>().To<SoundService>().InSingletonScope();//singleton
         }
     }
 }
