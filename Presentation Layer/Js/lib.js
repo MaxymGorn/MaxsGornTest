@@ -63,7 +63,6 @@ class Controler {
                 url: "/Home/Upload",
                 data: formData,
                 processData: false,
-                contentType: false,
                 success: function (result, status, xhr) {
                    
                 },

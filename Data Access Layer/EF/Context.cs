@@ -23,6 +23,8 @@ namespace MaxsGornTest.Models
         {
             //Database.SetInitializer<Context>(new DbInitializer());
         }
+
+       
     }
 
 }
