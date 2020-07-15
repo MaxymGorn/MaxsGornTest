@@ -6,13 +6,12 @@ Audio Recorder ASP.NET Framework 4.8 and Azure Db+Azure Storage(Three-level arch
 <body>
   <div class="row"> 
   <div class="column">
-    <img src="https://i.ibb.co/7Gh2LJk/photo-2020-07-15-04-07-23.jpg" align="right" width=26% height="500" />
+    <img src="https://i.ibb.co/7Gh2LJk/photo-2020-07-15-04-07-23.jpg" align="left" width=26%  />
   </div>
   <div class="column">
-  <img src="https://i.ibb.co/BG99cPM/Screenshot-1.png" align="right" height="500" width=70% />
+  <img src="https://i.ibb.co/BG99cPM/Screenshot-1.png" align="right"  width=70% />
   </div>  
 </div>
-  <h>Site: https://maxsrecorderaudio.azurewebsites.net/Sounds/Create</h>
-  
+   <summary>Site: https://maxsrecorderaudio.azurewebsites.net/Sounds/Create</summary>
 </body>
 </html>
