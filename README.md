@@ -1,7 +1,7 @@
 # MaxsGornTest
 <html>
 <head>
-Audio Recorder ASP.NET Framework 4.8 and Azure Db+Azure Storage(Three-level architecture in the project of vikoristan)
+Audio Recorder ASP.NET Framework 4.8 and Azure Db+Azure Storage(Three-level architecture within and save files)
 </head>
 <body>
   <div class="row"> 
