@@ -13,6 +13,4 @@ Audio Recorder ASP.NET Framework 4.8 and Azure Db+Azure Storage(Three-level arch
   </div>  
 </div>
    
-</body>
-<footer><summary>Site: https://maxsrecorderaudio.azurewebsites.net/Sounds/Create</summary></footer>
-</html>
+</body></html>
