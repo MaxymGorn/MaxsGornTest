@@ -3,35 +3,6 @@
 <head>
 <title>Audio Recorder ASP.NET Framework 4.8 and Azure Db+Azure Storage(Three-level architecture in the project of vikoristan)</title>
   <style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial;
-}
-
-.header {
-  text-align: center;
-  padding: 32px;
-}
-
-.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-.column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
 .column img {
   margin-top: 8px;
   vertical-align: middle;
@@ -61,7 +32,7 @@ body {
     <img src="https://i.ibb.co/7Gh2LJk/photo-2020-07-15-04-07-23.jpg" align="right" height="500" />
   </div>
   <div class="column">
-  <img src="https://i.ibb.co/BG99cPM/Screenshot-1.png" align="right" height="500" />
+  <img src="https://i.ibb.co/BG99cPM/Screenshot-1.png" align="right" height="500" width=60% />
   </div>  
 </div>
   <h>Site: https://maxsrecorderaudio.azurewebsites.net/Sounds/Create</h>
