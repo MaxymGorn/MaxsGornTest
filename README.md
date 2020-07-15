@@ -56,15 +56,12 @@ body {
 </style>
 </head>
 <body>
-<img src="https://i.ibb.co/7Gh2LJk/photo-2020-07-15-04-07-23.jpg" align="right" height="500" />
-  <img src="https://i.ibb.co/BG99cPM/Screenshot-1.png" align="right" height="500" />
   <div class="row"> 
   <div class="column">
-    <img src="/w3images/wedding.jpg" style="width:100%">
+    <img src="https://i.ibb.co/7Gh2LJk/photo-2020-07-15-04-07-23.jpg" align="right" height="500" />
   </div>
   <div class="column">
-    <img src="/w3images/underwater.jpg" style="width:100%">
-
+  <img src="https://i.ibb.co/BG99cPM/Screenshot-1.png" align="right" height="500" />
   </div>  
 </div>
   <h>Site: https://maxsrecorderaudio.azurewebsites.net/Sounds/Create</h>
