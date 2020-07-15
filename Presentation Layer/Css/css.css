@@ -9,15 +9,13 @@ body {
 header {
     padding-top: 20px;
     font-family: "impact";
-    font-size: 60px;
+    font-size: medium;
     color: aliceblue;
 }
-
 .MainMenu {
     width: 100%;
     height: 100%;
 }
-
 footer {
     text-align: center;
     color: black;
@@ -26,21 +24,18 @@ footer {
     padding: 10px 50px;
     color: #E94C6F;
 }
-
 .profile-page .image-container {
     background-size: cover;
     background-position: bottom;
     width: 100%;
     height: 100%;
 }
-
 #MainMenu {
     height: auto;
     border-radius: 15px;
     background: linear-gradient(0deg, #D62121, #C72C2C, #3a1111);
     box-shadow: 0px 0px gray, 0px 0px 20px gray;
 }
-
 div image {
     position: absolute;
     top: 0;
@@ -49,7 +44,6 @@ div image {
     bottom: 0;
     margin: auto;
 }
-
 .buttons .microphone .play-btn {
     text-align: center;
     align-content: center;
@@ -57,7 +51,7 @@ div image {
     padding-top: 15px;
     padding-bottom: 15px;
     background-repeat: no-repeat;
-    height: auto;
+    height:auto;
 }
 
 .btn-record {
@@ -70,13 +64,12 @@ div image {
     border-radius: 50%;
 }
 
-#timer {
+#timer{
     font-family: 'impact';
     color: aliceblue;
     font-size: 24px;
     margin: auto;
 }
-
 #date {
     font-family: fantasy;
     color: aliceblue;
@@ -96,7 +89,6 @@ div image {
     height: 80px;
     width: 80px;
 }
-
 .flex-container {
     display: flex;
     height: 100px;
@@ -110,3 +102,4 @@ div image {
 .flex-item {
     width: 100px;
 }
+

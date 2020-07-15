@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Web;
 
-namespace Business_Logic_Layer.DTO
+namespace Presentation_Layer.Models
 {
-    public class SoundDTO
+    public class SoundsViewModel
     {
         public int id { get; set; }
         public string FileNameUrl { get; set; }

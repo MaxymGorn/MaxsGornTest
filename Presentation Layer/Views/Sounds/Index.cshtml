@@ -5,71 +5,48 @@
 }
 
 <h2>Index</h2>
-<html>
-<head>
-<link href="~/Css/css.css" />
- 
-</head>
-<body class="tablecontainer" id="myDatatable">
-    <p>
-        @Html.ActionLink("Create New", "Create")
-    </p>
-    <table class="table" class="table table-bordered table-striped">
-        <thead>
-            <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.UserId)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.FileNameUrl)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.DateStart)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Duration)
-                </th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.UserId)
-                    </td>
-                    <td>
-                        <article class="audio" id="@item.id">
-                            <audio controls>
-                                <source src="@item.FileNameUrl" type="audio/mp3" />
-                                <p>Your browser does not support HTML 5 audio element</p>
-                            </audio>
-                        </article>
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.DateStart)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Duration)
-                    </td>
-                    <td>
-                        @Html.ActionLink("Details", "Details", new { id = item.id }) |
-                        @Html.ActionLink("Delete", "Delete", new { id = item.id })
-                        @Html.RouteLink("Dowload", "Dowload", htmlAttributes: new { href = item.FileNameUrl })
-                    </td>
-                </tr>
-            }
-        </tbody>
 
-    </table>
-    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
-    <script src="~/Scripts/jquery.validate.min.js"></script>
-    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
-    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
-</body>
-</html>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.UserId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FileNameUrl)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateStart)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Duration)
+        </th>
+        <th></th>
+    </tr>
 
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FileNameUrl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateStart)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Duration)
+            </td>
+            <td>
+                @Html.ActionLink("Details", "Details", new { id = item.id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.id })
+                @Html.RouteLink("Dowload", "Dowload", htmlAttributes: new { href = item.FileNameUrl })
+            </td>
+        </tr>
+    }
 
-
+</table>
