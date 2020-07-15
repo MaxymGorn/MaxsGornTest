@@ -3,50 +3,64 @@
 @{
     ViewBag.Title = "";
 }
+<html>
+<head>
+    <link rel="stylesheet" href="~/Css/css.css" />
+</head>
+<body >
+    <h2>Sounds</h2>
+    <p>
+        @Html.ActionLink("Recorder sound", "Create")
+    </p>
+    <div class="tsound">
+        <table class="table" >
+            <tr>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.UserId)
+                </th >
+                <th scope="col">
+                        @Html.DisplayNameFor(model => model.FileNameUrl)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.DateStart)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Duration)
+                </th>
+                <th></th>
+            </tr>
 
-<h2>Index</h2>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserId)
+                    </td>
+                    <td>
+                        <div class="col-sm-4 col-sm-offset-4 ">
+                            <audio controls style="max-width: 500px; max-height:30px; align-items:center; padding:5px;">
+                                <source src="@item.FileNameUrl">
+                                Your browser does not support the audio tag.
+                            </audio>
+                        </div>
+                    </td>
+                    <td>
+  
+                        @Html.DisplayFor(modelItem =>item.DateStart)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Duration)
+                    </td>
+                    <td id="links">
+                        @Html.ActionLink("Details", "Details", new { id = item.id }, new { @style = "color: #ffffff;" }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.id }, new { @style = "color: #ffffff;" }) |
+                        @Html.RouteLink("Dowload", "Dowload", htmlAttributes: new { href = item.FileNameUrl, @style = "color: #ffffff;" }) 
+                    </td>
+                </tr>
+            }
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.UserId)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.FileNameUrl)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.DateStart)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Duration)
-        </th>
-        <th></th>
-    </tr>
+        </table>
+    </div>
+</body>
+</html>
 
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.UserId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FileNameUrl)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DateStart)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Duration)
-            </td>
-            <td>
-                @Html.ActionLink("Details", "Details", new { id = item.id }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.id })
-                @Html.RouteLink("Dowload", "Dowload", htmlAttributes: new { href = item.FileNameUrl })
-            </td>
-        </tr>
-    }
-
-</table>

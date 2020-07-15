@@ -9,7 +9,7 @@ body {
 header {
     padding-top: 20px;
     font-family: "impact";
-    font-size: medium;
+    font-size: 46px;
     color: aliceblue;
 }
 .MainMenu {
@@ -44,16 +44,22 @@ div image {
     bottom: 0;
     margin: auto;
 }
-.buttons .microphone .play-btn {
+.buttons .play-btn {
     text-align: center;
     align-content: center;
     position: relative;
     padding-top: 15px;
     padding-bottom: 15px;
     background-repeat: no-repeat;
-    height:auto;
+    height: auto;
+    max-height: 100px;
 }
-
+.microphone {
+    margin-left: auto;
+    margin-right: auto;
+    width: 22em;
+    height: 17em
+}
 .btn-record {
     text-align: center;
     align-content: center;
@@ -73,10 +79,9 @@ div image {
 #date {
     font-family: fantasy;
     color: aliceblue;
-    font-size: 28px;
+    font-size: 20px;
     margin: auto;
 }
-
 .icn-record {
     text-align: center;
     align-content: center;
@@ -102,4 +107,68 @@ div image {
 .flex-item {
     width: 100px;
 }
+div {
+    display: block;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.tsound {
+    border-radius: 16px;
+    overflow: hidden;
+    background: linear-gradient(-68deg, #ac32e4, #4801ff);
+    margin-bottom: 10px;
+}
+table {
+    width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 2px;
+    border-color: grey;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+table th {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    vertical-align:central;
+    align-content:center;
+}
+table tr {
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.4;
 
+}
+
+table th {
+    padding-top: 24px;
+    padding-bottom: 10px;
+}
+#links {
+    font-family: Impact;
+    font-size: 16px;
+    color: aliceblue;
+    line-height: 1.4;
+}
