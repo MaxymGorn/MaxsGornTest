@@ -13,7 +13,7 @@
         @Html.ActionLink("Recorder sound", "Create")
     </p>
     <div class="tsound">
-        <table class="table" >
+        <table class="table table-sm" >
             <tr>
                 <th scope="col">
                     @Html.DisplayNameFor(model => model.UserId)
@@ -33,12 +33,12 @@
             @foreach (var item in Model)
             {
                 <tr>
-                    <td>
+                    <th scope="row">
                         @Html.DisplayFor(modelItem => item.UserId)
-                    </td>
+                    </th>
                     <td>
                         <div class="col-sm-4 col-sm-offset-4 ">
-                            <audio controls style="max-width: 500px; max-height:30px; align-items:center; padding:5px;">
+                            <audio controls style="max-width: 190px; max-height:30px; align-items:center; padding:5px;">
                                 <source src="@item.FileNameUrl">
                                 Your browser does not support the audio tag.
                             </audio>
