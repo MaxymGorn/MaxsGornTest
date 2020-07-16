@@ -66,26 +66,17 @@ namespace Presentation_Layer.Controllers
             }
             return 0;
         }
-        //[HttpPost]
-        //[System.Diagnostics.CodeAnalysis.SuppressMessage("Design", "CA1062:Проверить аргументы или открытые методы", Justification = "<Ожидание>")]
-        //public async Task<JsonResult> Upload(HttpPostedFileBase blob, string dateStart, string duration)
-        //{
-        //    using (AzureBlobManager azureBlobManager = AzureBlobManager.getInstance())
-        //    {
-        //        await soundService.MakeSoundAsync(new SoundDTO() { DateStart = dateStart, Duration = duration, FileNameUrl = await azureBlobManager.SaveAsync(blob).ConfigureAwait(true), UserId = GetId(soundService.GetUsers(), MvcApplication.cookies.Value) });
-        //    }
-        //    return JsonConvert.DeserializeObject<dynamic>("Success: " + blob.FileName);
-        //}
         [HttpPost]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Design", "CA1062:Проверить аргументы или открытые методы", Justification = "<Ожидание>")]
-        public async Task<JsonResult> Upload(UploadViewModel uploadViewModel)
+        public async Task<JsonResult> Upload(HttpPostedFileBase blob, string dateStart, string duration)
         {
             using (AzureBlobManager azureBlobManager = AzureBlobManager.getInstance())
             {
-                await soundService.MakeSoundAsync(new SoundDTO() { DateStart = uploadViewModel.dateStart, Duration = uploadViewModel.duration, FileNameUrl = await azureBlobManager.SaveAsync(uploadViewModel.blob).ConfigureAwait(true), UserId = GetId(soundService.GetUsers(), MvcApplication.cookies.Value) });
+                await soundService.MakeSoundAsync(new SoundDTO() { DateStart = dateStart, Duration = duration, FileNameUrl = await azureBlobManager.SaveAsync(blob).ConfigureAwait(true), UserId = GetId(soundService.GetUsers(), MvcApplication.cookies.Value) });
             }
-            return JsonConvert.DeserializeObject<dynamic>("Success: " + uploadViewModel.blob.FileName);
+            return JsonConvert.DeserializeObject<dynamic>("Success: " + blob.FileName);
         }
+
         protected override void Dispose(bool disposing)
         {
             if (disposing)
